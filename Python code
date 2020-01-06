@@ -1,0 +1,33 @@
+print("enter a number")
+num1 = io.read()
+print("enter another number")
+num2 = io.read()
+print("enter a symbol")
+symbol = io.read()
+ 
+if symbol == "+" then
+  print(num1+num2)
+  end
+  
+if symbol == "*" then
+  print(num1*num2)
+  end
+
+if symbol == "-" then
+  print(num1-num2)
+  end
+
+if symbol == "%" then
+  print(num1%num2)
+  end
+
+
+
+if  num1 > "0"  then 
+  print ("this is positive")
+endnum1 = io.read()
+
+
+if  num1 < "0"  then 
+  print ("this is negative")
+end
